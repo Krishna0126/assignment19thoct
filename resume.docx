@@ -1,0 +1,24 @@
+let resume = 
+{
+    "basics": 
+    {
+      "name": "Krishna Phani",
+      "label": "Student",
+      "email": "chivukula.krishnaphani@gmail.com",
+    }, 
+    "location": 
+    {
+      "address": "12-2-830",
+      "pinCode": "515001",
+      "city": "anantapur",
+      "state": "Andhra Pradesh"
+    }, 
+
+}
+// console.table(resume);
+// console.log(resume.location);
+for (let i in resume){
+    console.table(resume[i]);
+    //console.log(i);
+
+}
