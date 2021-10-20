@@ -19,7 +19,7 @@ for(let i = 0 ;i<t.length;i++)
 
  
 }
-console.table(t);
+
     }
     else{
         console.log(xhr.responseText);
